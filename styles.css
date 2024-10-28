@@ -1,0 +1,33 @@
+html {
+    background-color: rgb(67, 67, 67);
+    border: 3px solid black;
+    height: 150px;
+    width: 200px;
+    border-radius: 4px;
+}
+.title {
+    color: #F0F0F0;
+    font-family: 'Comfortaa', sans-serif;
+    margin-bottom: 6px;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    height: 95px;
+    width: 175px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    resize: none;
+    font-family: 'Comfortaa', Arial;
+    font-weight: bold;
+
+}
+input:focus {
+    color: white;
+    outline: none;
+}
